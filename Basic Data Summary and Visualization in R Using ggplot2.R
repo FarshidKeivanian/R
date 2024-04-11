@@ -1,5 +1,8 @@
 # Example of basic data manipulation and plotting in R
 
+# Install ggplot2
+install.packages("ggplot2")
+
 # Load necessary library
 library(ggplot2)
 
