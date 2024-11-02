@@ -1,5 +1,9 @@
-# Load data from the CSV file
-data <- read.csv("path_to_your_directory/sample_data.csv")
+# Load the 'readr' package for reading data from URLs
+install.packages("readr")  # Run this line if 'readr' is not already installed
+library(readr)
+
+# Load data from the CSV file on GitHub
+data <- read_csv("https://raw.githubusercontent.com/FarshidKeivanian/Sessions_R/main/Employee_Data.csv")
 
 # Display the first few rows of the dataset
 head(data)
